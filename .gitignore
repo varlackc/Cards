@@ -1,7 +1,14 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.pyd
+*.pyc
+__pycache__
+*.egg-info
 *.py[codz]
 *$py.class
+
+*_old.py
+*_personal.md
 
 # C extensions
 *.so
