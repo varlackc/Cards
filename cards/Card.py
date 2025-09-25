@@ -9,4 +9,5 @@ class Card:
         self.value = value
     def get_suite(self):
         return self.suite
-    
+    def get_value(self):
+        return self.value
