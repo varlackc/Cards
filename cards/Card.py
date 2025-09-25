@@ -4,3 +4,6 @@ class Card:
         self.value = ""
     def get_card(self):
         return [self.suite, self.value]
+    def set_card(self,suite,value):
+        self.suite = suite
+        self.value = value
