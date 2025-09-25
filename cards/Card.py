@@ -7,3 +7,6 @@ class Card:
     def set_card(self,suite,value):
         self.suite = suite
         self.value = value
+    def get_suite(self):
+        return self.suite
+    
