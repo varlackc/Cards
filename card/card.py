@@ -3,7 +3,7 @@ class Card:
         self.suite = ""
         self.rank = ""
     def get_card(self):
-        return [self.suite, self.rank]
+        return (self.suite, self.rank)
     def set_card(self,suite,rank):
         self.suite = suite
         self.rank = rank
