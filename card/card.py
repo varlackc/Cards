@@ -11,5 +11,5 @@ class Card:
         return self.suite
     def get_rank(self):
         return self.rank
-    def __repr__(self):
-        return f"{self.rank} of {self.suite}"
+#    def __repr__(self):
+#        return f"{self.rank} of {self.suite}"
