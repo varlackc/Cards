@@ -20,5 +20,10 @@ class TestCard(unittest.TestCase):
         card_a = Card()
         card_a.set_card("Hearts", "A")
         self.assertIsNotNone(card_a.get_suite)
+    def test_get_suite(self):
+        card_a = Card()
+        card_a.set_card("Hearts", "A")
+        self.assertEqual(card_a.get_suite, "Hearts")
+        
         
         
