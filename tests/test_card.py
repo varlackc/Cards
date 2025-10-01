@@ -31,8 +31,9 @@ class TestCard(unittest.TestCase):
     def test_print_output(self):
         card_a = Card()
         card_a.set_card("Hearts", "A")
-        self.assertIsNotNone(card_a.__repr__())        
-        
-        
-        
+        self.assertIsNotNone(card_a.__repr__())
+    def test_print(self):
+        card_a = Card()
+        card_a.set_card("Hearts", "A")
+        self.assertEqual(card_a.__repr__(), "A of Hearts")
         
