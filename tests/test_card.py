@@ -27,7 +27,7 @@ class TestCard(unittest.TestCase):
     def test_get_rank_output(self):
         card_a = Card()
         card_a.set_card("Hearts", "A")
-        self.assertIsNotNone(card_a.get_rank)
+        self.assertIsNotNone(card_a.get_rank(), "A")
         
         
         
