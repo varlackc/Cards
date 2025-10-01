@@ -19,11 +19,16 @@ class TestCard(unittest.TestCase):
     def test_get_suite_output(self):
         card_a = Card()
         card_a.set_card("Hearts", "A")
-        self.assertIsNotNone(card_a.get_suite)
+        self.assertIsNotNone(card_a.get_suite())
     def test_get_suite(self):
         card_a = Card()
         card_a.set_card("Hearts", "A")
-        self.assertEqual(card_a.get_suite, "Hearts")
+        self.assertEqual(card_a.get_suite(), "Hearts")
+    def test_get_rank_output(self):
+        card_a = Card()
+        card_a.set_card("Hearts", "A")
+        self.assertIsNotNone(card_a.get_rank)
+        
         
         
         
