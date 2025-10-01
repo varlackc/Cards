@@ -8,8 +8,8 @@ class Card:
         self.suite = suite
         self.rank = rank
     def get_suite(self):
-        return self.suite
+        return self.suite 
     def get_rank(self):
         return self.rank
-#    def __repr__(self):
-#        return f"{self.rank} of {self.suite}"
+    def __repr__(self):
+        return f"{self.rank} of {self.suite}"
