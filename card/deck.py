@@ -18,7 +18,11 @@ class Deck:
 
     # deal
     def deal(self):
-        return self.pile.pop(0)
+        try:
+            result = self.pile.pop(0)
+        except:
+            result = None
+        return result
     # __len__
     
     # __repr__ Deck of # cards
