@@ -11,3 +11,7 @@ There are also three types of court cards wich are the King, Queen and Jack.
 In order to test the functionality of the card appliation you can run the tests by using the following command:
 
 `python -m unittest`
+
+The tests that will be used are included n the tests folder. 
+
+In order to get additional information on the project, read the documentation in the doc folder.
