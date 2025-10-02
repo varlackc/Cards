@@ -24,5 +24,7 @@ class Deck:
             result = None
         return result
     # __len__
-    
+    def __len__(self):
+        result = len(self.pile)
+        return result
     # __repr__ Deck of # cards
