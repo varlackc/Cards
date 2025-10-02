@@ -1,4 +1,6 @@
 from card import Card
+import random
+
 class Deck:
     def __init__(self):
         self.card = Card()
@@ -15,7 +17,8 @@ class Deck:
                 self.pile[i].set_card(suite, rank)
                 i += 1
     # shuffle
-
+    def shuffle(self):
+        random.shuffle(self.pile)
     # deal
     def deal(self):
         try:
