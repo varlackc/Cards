@@ -6,7 +6,6 @@ class Deck:
     def create(self):
         suites = ["Spades", "Diamonds", "Clubs", "Hearts"]
         ranks = ["A", "2","3","4","5","6","7","8","9","10","J","Q","K",]
-        card_group = []
         i = 0
         for suite in suites:
             for rank in ranks:
