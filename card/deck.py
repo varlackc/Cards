@@ -1,6 +1,7 @@
 from card import Card
 class Deck:
     def __init__(self):
+        self.card = Card()
         self.pile = []
     def create(self):
         suites = ["Spades", "Diamonds", "Clubs", "Hearts"]
@@ -22,6 +23,7 @@ class Deck:
             result = self.pile.pop(0)
         except:
             result = None
+        self.card = result
         return result
     # __len__
     def __len__(self):
