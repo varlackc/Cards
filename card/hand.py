@@ -8,3 +8,12 @@ class Hand:
         self.cards.append(card_a)
         while len(self.cards) > self.hand_size:
             self.cards[0]
+    def initial(self, cards):
+        # add an initial list of cards to the hand
+        size = len(cards)
+        for card in cards:
+            self.cards.append(card)
+        # remove any excess cards
+        while len(self.cards) > self.hand_size:
+            self.cards[0]
+        
