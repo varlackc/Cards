@@ -32,3 +32,5 @@ class Deck:
         result = len(self.pile)
         return result
     # __repr__ Deck of # cards
+    def __repr__(self):
+        return f"The deck contains {len(self.pile)} cards."
