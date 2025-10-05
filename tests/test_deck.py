@@ -1,4 +1,4 @@
 import unittest
 
-class TestCard(unittest.TestCase):
+class TestDeck(unittest.TestCase):
     
