@@ -10,4 +10,10 @@ class TestDeck(unittest.TestCase):
         deck_a = Deck()
         deck_a.create()
         self.assertIsNotNone(deck_a.deal())
+    def test_deal_many(self):
+        result = []
+        deck_a = Deck()
+        deck_a.create()
+        result = deck_a.deal_many(5)
+        self.assertEqual(len(result), 5)
         
