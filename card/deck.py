@@ -27,6 +27,16 @@ class Deck:
             result = None
         self.card = result
         return result
+    def deal_many(self, count):
+        result = []
+        for i in range(count):
+            try:
+                result.append(self.pile.pop(0))
+            except:
+                continue
+            self.card = result
+        return result
+        
     # __len__
     def __len__(self):
         result = len(self.pile)
