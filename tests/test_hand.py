@@ -13,11 +13,8 @@ class TestHand(unittest.TestCase):
         deck_a = Deck()
         deck_a.create()
         cards = []
-        cards.append(deck_a.deal())
-        cards.append(deck_a.deal())
-        cards.append(deck_a.deal())
+        cards = deck_a.deal_many(5)
         hand_a = Hand()
         hand_a.initial(cards)
-        self.assertEqual(len(hand_a.cards), 3)
-        
+        self.assertEqual(len(hand_a.cards), 5)
         
