@@ -1,5 +1,5 @@
 import unittest
-from card import Card, Hand
+from card import Card, Deck, Hand
 
 class TestHand(unittest.TestCase):
     def test_hand_add_card(self):
@@ -8,4 +8,16 @@ class TestHand(unittest.TestCase):
         card_a.set_card("Hearts", "A")
         hand_a.add_card(card_a)
         self.assertEqual(len(hand_a.cards), 1)
+        
+    def test_initial(self):
+        deck_a = Deck()
+        deck_a.create()
+        cards = []
+        cards.append(deck_a.deal())
+        cards.append(deck_a.deal())
+        cards.append(deck_a.deal())
+        hand_a = Hand()
+        hand_a.initial(cards)
+        self.assertEqual(len(hand_a.cards), 3)
+        
         
