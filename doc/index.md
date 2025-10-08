@@ -14,3 +14,9 @@ The first step is to import the files in the `card` folder and select the classe
 ```python
 from card import Card
 ```
+
+There is also the possibility of importing all of the classes in the project using the following call:
+
+```python
+from card import *
+```
