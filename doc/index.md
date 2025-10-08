@@ -9,3 +9,4 @@ Additional elements that are part of the car program include `card decks` and `c
 
 ## How to call the Cards project files
 
+The first step is to import the files in the `card` folder and select the classes that contain the components that you are trying to use. 
