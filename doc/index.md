@@ -21,7 +21,7 @@ There is also the possibility of importing all of the classes in the project usi
 from card import *
 ```
 
-We then will have to call the instance of the `card` before we could take any action with the `card`. The same is true for the `deck` or `hand`. The process will look as follows:
+We then will have to call the instance of the `card` before we could take any action with the `card`. The same is true for the `deck`, `hand` or `discard`. The process will look as follows:
 
 ```
 c1 = Card()
