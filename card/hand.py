@@ -28,3 +28,9 @@ class Hand:
         else:
             result = None
         return result
+    def get_index(self, suite, rank):
+        result = None
+        for i in range(len(self.cards)):
+            if(self.cards[i].suite == suite and self.cards[i].rank == rank):
+                return i
+        return result
