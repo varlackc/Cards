@@ -21,4 +21,10 @@ class Hand:
         for card in self.cards:
             result.append(card.get_card())
         return tuple(result) 
-        
+    def get_by_index(self, index):
+        result = None
+        if(index < len(self.cards)):
+            result = self.cards[index]
+        else:
+            result = None
+        return result
