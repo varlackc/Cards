@@ -16,4 +16,9 @@ class Hand:
         # remove any excess cards
         while len(self.cards) > self.hand_size:
             self.cards[0]
+    def view(self):
+        result = []
+        for card in self.cards:
+            result.append(card.get_card())
+        return tuple(result) 
         
