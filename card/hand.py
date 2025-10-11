@@ -34,3 +34,11 @@ class Hand:
             if(self.cards[i].suite == suite and self.cards[i].rank == rank):
                 return i
         return result
+    def remove(self, suite, rank):
+        result = None
+        for i in range(len(self.cards)):
+            if(self.cards[i].suite == suite and self.cards[i].rank == rank):
+                result = self.cards.pop(i)
+                return result
+        return result
+                
