@@ -28,5 +28,4 @@ class TestHand(unittest.TestCase):
         self.assertIsNotNone(hand_a.view)
         
     def test_get_by_index(self):
-        pass
-        
+        pass        
