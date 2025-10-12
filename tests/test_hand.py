@@ -27,3 +27,7 @@ class TestHand(unittest.TestCase):
         hand_a.initial(cards)
         self.assertIsNotNone(hand_a.view)
         
+    def get_by_index(self):
+        pass
+    
+        
