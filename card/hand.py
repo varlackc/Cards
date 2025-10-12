@@ -41,4 +41,9 @@ class Hand:
                 result = self.cards.pop(i)
                 return result
         return result
+    def remove_by_index(self, index):
+        result = None
+        if (index < len(self.cards)):
+            result = self.cards.pop(index)
+        return result
                 
