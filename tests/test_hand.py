@@ -28,4 +28,10 @@ class TestHand(unittest.TestCase):
         self.assertIsNotNone(hand_a.view)
         
     def test_get_by_index(self):
-        pass        
+        deck_a = Deck()
+        deck_a.create()
+        cards = []
+        cards = deck_a.deal_many(5)
+        hand_a = Hand()
+        hand_a.initial(cards)
+        self.assertIsNotNone(hand_a.get_by_index(0))        
