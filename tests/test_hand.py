@@ -34,4 +34,6 @@ class TestHand(unittest.TestCase):
         cards = deck_a.deal_many(5)
         hand_a = Hand()
         hand_a.initial(cards)
-        self.assertIsNotNone(hand_a.get_by_index(0))        
+        self.assertIsNotNone(hand_a.get_by_index(0))
+    def test_get_index(self):
+        pass      
