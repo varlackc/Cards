@@ -37,3 +37,5 @@ class TestHand(unittest.TestCase):
         self.assertIsNotNone(hand_a.get_by_index(0))
     def test_get_index(self):
         pass      
+    def test_remove(self):
+        pass
