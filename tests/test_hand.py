@@ -39,3 +39,5 @@ class TestHand(unittest.TestCase):
         pass      
     def test_remove(self):
         pass
+    def test_remove_by_index(self):
+        pass
