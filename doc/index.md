@@ -26,3 +26,10 @@ We then will have to call the instance of the `card` before we could take any ac
 ```
 c1 = Card()
 ```
+
+The value of the card will have to be set after the card is created. We can set the card value by using the set_card method. In such case we will set the suite and rank of the card as inputs. we can do it as shown in the
+following example:
+
+```
+c1.set_card("Heart","A")
+```
