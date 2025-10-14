@@ -35,6 +35,7 @@ class TestHand(unittest.TestCase):
         hand_a = Hand()
         hand_a.initial(cards)
         self.assertIsNotNone(hand_a.get_by_index(0))
+        
     def test_get_index(self):
         hand_a = Hand()
         card_a = Card()
@@ -44,7 +45,8 @@ class TestHand(unittest.TestCase):
         card_b.set_card("Hearts", "2")
         card_c.set_card("Hearts", "3")
         hand_a.initial([card_a,card_b,card_c])
-        self.assertEqual(hand_a.get_by_index("Hearts", "A"), 0)     
+        self.assertEqual(hand_a.get_by_index("Hearts", "A"), 0)
+        
     def test_remove(self):
         hand_a = Hand()
         card_a = Card()
@@ -55,6 +57,7 @@ class TestHand(unittest.TestCase):
         card_c.set_card("Hearts", "3")
         hand_a.initial([card_a,card_b,card_c])
         self.assertIsNotNone(hand_a.remove("Hearts","A"))
+        
     def test_remove_by_index(self):
         hand_a = Hand()
         card_a = Card()
