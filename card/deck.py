@@ -5,6 +5,7 @@ class Deck:
     def __init__(self):
         self.card = Card()
         self.pile = []
+        
     def create(self):
         suites = ["Spades", "Diamonds", "Clubs", "Hearts"]
         ranks = ["A", "2","3","4","5","6","7","8","9","10","J","Q","K",]
@@ -16,9 +17,11 @@ class Deck:
                 self.pile[i] = Card()
                 self.pile[i].set_card(suite, rank)
                 i += 1
+                
     # shuffle
     def shuffle(self):
         random.shuffle(self.pile)
+        
     # deal
     def deal(self):
         try:
@@ -27,6 +30,7 @@ class Deck:
             result = None
         self.card = result
         return result
+    
     def deal_many(self, count):
         result = []
         for i in range(count):
@@ -41,6 +45,7 @@ class Deck:
     def __len__(self):
         result = len(self.pile)
         return result
+    
     # __repr__ Deck of # cards
     def __repr__(self):
         return f"The deck contains {len(self.pile)} cards."
