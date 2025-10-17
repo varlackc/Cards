@@ -33,3 +33,5 @@ following example:
 ```
 c1.set_card("Heart","A")
 ```
+
+We can verify the content of the card by using the get_card method. It will return the suite and rank of the card inside a tuple. 
