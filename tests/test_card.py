@@ -1,3 +1,9 @@
+"""
+Program: Test Card
+Author: Maxwell Varlack
+Description: This program is used to 
+Test the Card class.
+"""
 import unittest
 from card import Card
 
