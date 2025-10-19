@@ -1,3 +1,9 @@
+"""
+Program: Test Hand
+Author: Maxwell Varlack
+Description: This program is used to 
+Test the Hand class.
+"""
 import unittest
 from card import Card, Deck, Hand
 
