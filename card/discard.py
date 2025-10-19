@@ -1,3 +1,9 @@
+"""
+Program: Discard
+Author: Maxwell Varlack
+Description: This program is used to 
+to represent a discard pile.
+"""
 from card import Card
 
 
