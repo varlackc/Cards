@@ -1,3 +1,9 @@
+"""
+Program: Deck
+Author: Maxwell Varlack
+Description: This program is used to 
+to represent a Deck of cards.
+"""
 from card import Card
 import random
 
