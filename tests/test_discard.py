@@ -1,3 +1,9 @@
+"""
+Program: Test Discard
+Author: Maxwell Varlack
+Description: This program is used to 
+Test the Discard class.
+"""
 import unittest
 from card import discard
 from card import card
