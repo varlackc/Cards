@@ -1,3 +1,9 @@
+"""
+Program: Hand
+Author: Maxwell Varlack
+Description: This program is used to 
+to represent a player card hand.
+"""
 from card import Card
 
 
