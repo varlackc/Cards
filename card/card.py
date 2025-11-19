@@ -16,7 +16,7 @@ class Card:
         self.suite = suite
         self.rank = rank
         
-    def get_suite(self):
+    def get_suite(self) -> str | any:
         return self.suite
     
     def get_rank(self):
