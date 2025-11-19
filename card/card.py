@@ -5,7 +5,7 @@ Description: This program is used to
 to represent a Card.
 """
 class Card:
-    def __init__(self):
+    def __init__(self) -> None:
         self.suite = ""
         self.rank = ""
         
