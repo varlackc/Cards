@@ -9,7 +9,7 @@ class Card:
         self.suite = ""
         self.rank = ""
         
-    def get_card(self):
+    def get_card(self) -> tuple[str | any, str | any]:
         return (self.suite, self.rank)
     
     def set_card(self,suite,rank):
