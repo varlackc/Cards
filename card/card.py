@@ -19,7 +19,7 @@ class Card:
     def get_suite(self) -> str | any:
         return self.suite
     
-    def get_rank(self):
+    def get_rank(self) -> str | any:
         return self.rank
     
     def __repr__(self):
