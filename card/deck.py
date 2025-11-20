@@ -9,7 +9,7 @@ import random
 
 
 class Deck:
-    def __init__(self):
+    def __init__(self) -> None:
         self.card = Card()
         self.pile = []
         
