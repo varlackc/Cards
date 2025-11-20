@@ -22,5 +22,5 @@ class Card:
     def get_rank(self) -> str | any:
         return self.rank
     
-    def __repr__(self):
+    def __repr__(self) -> str:
         return f"{self.rank} of {self.suite}"
