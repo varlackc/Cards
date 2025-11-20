@@ -13,7 +13,7 @@ class Deck:
         self.card = Card()
         self.pile = []
         
-    def create(self):
+    def create(self) -> None:
         suites = ["Spades", "Diamonds", "Clubs", "Hearts"]
         ranks = ["A", "2","3","4","5","6","7","8","9","10","J","Q","K",]
         i = 0
@@ -26,7 +26,7 @@ class Deck:
                 i += 1
                 
     # shuffle
-    def shuffle(self):
+    def shuffle(self) -> None:
         random.shuffle(self.pile)
         
     # deal
