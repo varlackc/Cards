@@ -30,7 +30,7 @@ class Deck:
         random.shuffle(self.pile)
         
     # deal
-    def deal(self):
+    def deal(self) -> any | None:
         try:
             result = self.pile.pop(0)
         except:
