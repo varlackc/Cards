@@ -38,7 +38,7 @@ class Deck:
         self.card = result
         return result
     
-    def deal_many(self, count):
+    def deal_many(self, count) -> list:
         result = []
         for i in range(count):
             try:
