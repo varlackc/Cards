@@ -49,7 +49,7 @@ class Deck:
         return result
         
     # __len__
-    def __len__(self):
+    def __len__(self) -> int:
         result = len(self.pile)
         return result
     
