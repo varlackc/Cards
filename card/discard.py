@@ -8,7 +8,7 @@ from card import Card
 
 
 class Discard:
-    def __init__(self):
+    def __init__(self) -> any:
         self.pile = []
         
     def add(self, card_a):
