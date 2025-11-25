@@ -14,6 +14,6 @@ class Discard:
     def add(self, card_a) -> None:
         self.pile.append(card_a)
         
-    def __len__(self):
+    def __len__(self) -> None:
         result = len(self.pile)
         return result
