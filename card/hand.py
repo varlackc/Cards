@@ -40,7 +40,7 @@ class Hand:
             result = None
         return result
     
-    def get_index(self, suite, rank):
+    def get_index(self, suite, rank) -> None:
         result = None
         for i in range(len(self.cards)):
             if(self.cards[i].suite == suite and self.cards[i].rank == rank):
