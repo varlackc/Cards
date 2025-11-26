@@ -26,7 +26,7 @@ class Hand:
         while len(self.cards) > self.hand_size:
             self.cards[0]
             
-    def view(self):
+    def view(self) -> None:
         result = []
         for card in self.cards:
             result.append(card.get_card())
