@@ -17,7 +17,7 @@ class Hand:
         while len(self.cards) > self.hand_size:
             self.cards[0]
             
-    def initial(self, cards):
+    def initial(self, cards) -> None:
         # add an initial list of cards to the hand
         size = len(cards)
         for card in cards:
