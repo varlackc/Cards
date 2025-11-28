@@ -55,7 +55,7 @@ class Hand:
                 return result
         return result
     
-    def remove_by_index(self, index):
+    def remove_by_index(self, index) -> None:
         result = None
         if (index < len(self.cards)):
             result = self.cards.pop(index)
