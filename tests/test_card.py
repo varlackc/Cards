@@ -17,7 +17,7 @@ class TestCard(unittest.TestCase):
     def test_set_card_no_output(self) -> None:
         self.assertIsNone(Card().set_card("Hearts","A"))
         
-    def test_get_card_output(self):
+    def test_get_card_output(self) -> None:
         card_a = Card()
         card_a.set_card("Hearts", "A")
         self.assertIsNotNone(card_a.get_card())
