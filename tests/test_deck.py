@@ -14,7 +14,7 @@ class TestDeck(unittest.TestCase):
         deck_a.create()
         self.assertEqual(len(deck_a.pile), 52)
         
-    def test_deal(self):
+    def test_deal(self) -> None:
         deck_a = Deck()
         deck_a.create()
         self.assertIsNotNone(deck_a.deal())
