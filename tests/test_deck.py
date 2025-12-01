@@ -19,7 +19,7 @@ class TestDeck(unittest.TestCase):
         deck_a.create()
         self.assertIsNotNone(deck_a.deal())
         
-    def test_deal_many(self):
+    def test_deal_many(self) -> None:
         result = []
         deck_a = Deck()
         deck_a.create()
