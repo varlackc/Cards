@@ -9,7 +9,7 @@ from card import Deck
 
 
 class TestDeck(unittest.TestCase):
-    def test_create(self):
+    def test_create(self) -> None:
         deck_a = Deck()
         deck_a.create()
         self.assertEqual(len(deck_a.pile), 52)
