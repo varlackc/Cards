@@ -9,7 +9,7 @@ from card import discard
 from card import card
 
 class TestDiscard(unittest.TestCase):
-    def test_add(self):
+    def test_add(self) -> None:
         card_a = card()
         card_a.set_card("Hearts", "A")
         discard_a = discard()
