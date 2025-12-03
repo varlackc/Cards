@@ -15,7 +15,7 @@ class TestHand(unittest.TestCase):
         hand_a.add_card(card_a)
         self.assertEqual(len(hand_a.cards), 1)
         
-    def test_initial(self):
+    def test_initial(self) -> None:
         deck_a = Deck()
         deck_a.create()
         cards = []
