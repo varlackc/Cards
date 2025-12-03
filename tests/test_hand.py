@@ -33,7 +33,7 @@ class TestHand(unittest.TestCase):
         hand_a.initial(cards)
         self.assertIsNotNone(hand_a.view)
         
-    def test_get_by_index(self):
+    def test_get_by_index(self) -> None:
         deck_a = Deck()
         deck_a.create()
         cards = []
