@@ -24,7 +24,7 @@ class TestHand(unittest.TestCase):
         hand_a.initial(cards)
         self.assertEqual(len(hand_a.cards), 5)
         
-    def test_view(self):
+    def test_view(self) -> None:
         deck_a = Deck()
         deck_a.create()
         cards = []
