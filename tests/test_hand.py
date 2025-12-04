@@ -42,7 +42,7 @@ class TestHand(unittest.TestCase):
         hand_a.initial(cards)
         self.assertIsNotNone(hand_a.get_by_index(0))
         
-    def test_get_index(self):
+    def test_get_index(self) -> None:
         hand_a = Hand()
         card_a = Card()
         card_b = Card()
