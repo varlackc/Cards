@@ -19,6 +19,9 @@ class Card:
         return (self.suite, self.rank)
     
     def set_card(self,suite,rank) -> None:
+        """
+        Method to get values to a card
+        """
         self.suite = suite
         self.rank = rank
         
