@@ -26,6 +26,9 @@ class Card:
         self.rank = rank
         
     def get_suite(self) -> str | any:
+        """
+        Method to optain the suite of a particular card
+        """
         return self.suite
     
     def get_rank(self) -> str | any:
