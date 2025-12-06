@@ -6,6 +6,9 @@ to represent a Card.
 """
 class Card:
     def __init__(self) -> None:
+        """
+        initialize the Card class
+        """
         self.suite = ""
         self.rank = ""
         
