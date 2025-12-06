@@ -10,6 +10,9 @@ import random
 
 class Deck:
     def __init__(self) -> None:
+        """
+        method to initialize the Deck class
+        """
         self.card = Card()
         self.pile = []
         
