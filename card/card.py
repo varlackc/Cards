@@ -38,4 +38,7 @@ class Card:
         return self.rank
     
     def __repr__(self) -> str:
+        """
+        Method to create the default string output
+        """
         return f"{self.rank} of {self.suite}"
