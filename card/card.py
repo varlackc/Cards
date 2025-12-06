@@ -32,6 +32,9 @@ class Card:
         return self.suite
     
     def get_rank(self) -> str | any:
+        """
+        Mehtod to get the rank of a given card
+        """
         return self.rank
     
     def __repr__(self) -> str:
