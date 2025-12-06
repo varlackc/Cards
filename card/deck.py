@@ -17,6 +17,9 @@ class Deck:
         self.pile = []
         
     def create(self) -> None:
+        """
+        method to generate a deck of cards
+        """
         suites = ["Spades", "Diamonds", "Clubs", "Hearts"]
         ranks = ["A", "2","3","4","5","6","7","8","9","10","J","Q","K",]
         i = 0
