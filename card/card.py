@@ -13,6 +13,9 @@ class Card:
         self.rank = ""
         
     def get_card(self) -> tuple[str | any, str | any]:
+        """
+        Method to get the values of a card
+        """
         return (self.suite, self.rank)
     
     def set_card(self,suite,rank) -> None:
