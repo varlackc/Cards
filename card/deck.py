@@ -65,6 +65,9 @@ class Deck:
         
     # __len__
     def __len__(self) -> int:
+        """
+        Method to show the length of the deck
+        """
         result = len(self.pile)
         return result
     
