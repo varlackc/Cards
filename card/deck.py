@@ -40,6 +40,9 @@ class Deck:
         
     # deal
     def deal(self) -> any | None:
+        """
+        Method to deal the cards
+        """
         try:
             result = self.pile.pop(0)
         except:
