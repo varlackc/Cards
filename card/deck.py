@@ -33,6 +33,9 @@ class Deck:
                 
     # shuffle
     def shuffle(self) -> None:
+        """
+        Method to shuffle the cards
+        """
         random.shuffle(self.pile)
         
     # deal
