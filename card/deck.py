@@ -51,6 +51,9 @@ class Deck:
         return result
     
     def deal_many(self, count) -> list:
+        """
+        Method to deal many cards at once
+        """
         result = []
         for i in range(count):
             try:
