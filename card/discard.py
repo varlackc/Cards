@@ -9,6 +9,9 @@ from card import Card
 
 class Discard:
     def __init__(self) -> any:
+        """
+        Method to initialize the Discard class
+        """
         self.pile = []
         
     def add(self, card_a) -> None:
