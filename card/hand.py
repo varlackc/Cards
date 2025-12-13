@@ -9,6 +9,9 @@ from card import Card
 
 class Hand:
     def __init__(self) -> None:
+        """
+        Method to initialize the Hand class
+        """
         self.cards = []
         self.hand_size = 5
         
