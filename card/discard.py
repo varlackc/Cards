@@ -15,6 +15,9 @@ class Discard:
         self.pile = []
         
     def add(self, card_a) -> None:
+        """
+        Method to add a card to the discard pile
+        """
         self.pile.append(card_a)
         
     def __len__(self) -> None:
