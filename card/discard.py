@@ -21,5 +21,8 @@ class Discard:
         self.pile.append(card_a)
         
     def __len__(self) -> None:
+        """
+        Method to determine the size of the discard pile
+        """
         result = len(self.pile)
         return result
