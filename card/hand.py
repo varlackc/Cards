@@ -37,6 +37,9 @@ class Hand:
             self.cards[0]
             
     def view(self) -> None:
+        """
+        Method to view the card hand
+        """
         result = []
         for card in self.cards:
             result.append(card.get_card())
