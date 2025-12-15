@@ -57,6 +57,9 @@ class Hand:
         return result
     
     def get_index(self, suite, rank) -> None:
+        """
+        Method to get the index of a particular card
+        """
         result = None
         for i in range(len(self.cards)):
             if(self.cards[i].suite == suite and self.cards[i].rank == rank):
