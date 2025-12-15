@@ -67,6 +67,9 @@ class Hand:
         return result
     
     def remove(self, suite, rank) -> None:
+        """
+        Method to remove a card from the hand
+        """
         result = None
         for i in range(len(self.cards)):
             if(self.cards[i].suite == suite and self.cards[i].rank == rank):
