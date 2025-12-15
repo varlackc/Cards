@@ -46,6 +46,9 @@ class Hand:
         return tuple(result) 
     
     def get_by_index(self, index) -> None:
+        """
+        Method to get a card by the index
+        """
         result = None
         if(index < len(self.cards)):
             result = self.cards[index]
