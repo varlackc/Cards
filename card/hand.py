@@ -78,6 +78,9 @@ class Hand:
         return result
     
     def remove_by_index(self, index) -> None:
+        """
+        Method to remove a card by index
+        """
         result = None
         if (index < len(self.cards)):
             result = self.cards.pop(index)
