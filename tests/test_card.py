@@ -18,6 +18,10 @@ class TestCard(unittest.TestCase):
         self.assertEqual(card_a.suite, "Hearts")
         
     def test_set_card_no_output(self) -> None:
+        """
+        Test to verify the test_set_card_no_output method
+        :param self: Description
+        """
         self.assertIsNone(Card().set_card("Hearts","A"))
         
     def test_get_card_output(self) -> None:
