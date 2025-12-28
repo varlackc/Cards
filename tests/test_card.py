@@ -34,6 +34,10 @@ class TestCard(unittest.TestCase):
         self.assertIsNotNone(card_a.get_card())
         
     def test_get_card(self) -> None:
+        """
+        Tet to verify the test_get_card method
+        :param self: Description
+        """
         card_a = Card()
         card_a.set_card("Hearts", "A")
         self.assertEqual(card_a.get_card(), ('Hearts', 'A'))
