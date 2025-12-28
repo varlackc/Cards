@@ -10,6 +10,9 @@ from card import Card
 
 class TestCard(unittest.TestCase):
     def test_set_card(self) -> any:
+        """
+        Test to verify the set_card method
+        """
         card_a = Card()
         card_a.set_card("Hearts", "A")
         self.assertEqual(card_a.suite, "Hearts")
