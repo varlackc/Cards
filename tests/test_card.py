@@ -35,7 +35,7 @@ class TestCard(unittest.TestCase):
         
     def test_get_card(self) -> None:
         """
-        Tet to verify the test_get_card method
+        Test to verify the test_get_card method
         :param self: Description
         """
         card_a = Card()
