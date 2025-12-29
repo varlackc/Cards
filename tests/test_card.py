@@ -81,7 +81,6 @@ class TestCard(unittest.TestCase):
     def test_print(self) -> None:
         """
         Test to verify the test_print method
-        
         :param self: Description
         """
         card_a = Card()
