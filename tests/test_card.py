@@ -43,6 +43,10 @@ class TestCard(unittest.TestCase):
         self.assertEqual(card_a.get_card(), ('Hearts', 'A'))
         
     def test_get_suite_output(self) -> None:
+        """
+        Test to verify the test_get_suite_output method
+        :param self: Description
+        """
         card_a = Card()
         card_a.set_card("Hearts", "A")
         self.assertIsNotNone(card_a.get_suite())
