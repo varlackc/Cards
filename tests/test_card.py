@@ -70,6 +70,10 @@ class TestCard(unittest.TestCase):
         self.assertIsNotNone(card_a.get_rank(), "A")
         
     def test_print_output(self) -> None:
+        """
+        Test to verify the test_print_output method
+        :param self: Description
+        """
         card_a = Card()
         card_a.set_card("Hearts", "A")
         self.assertIsNotNone(card_a.__repr__())
