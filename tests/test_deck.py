@@ -19,6 +19,11 @@ class TestDeck(unittest.TestCase):
         self.assertEqual(len(deck_a.pile), 52)
         
     def test_deal(self) -> None:
+        """
+        Docstring for test_deal
+        
+        :param self: Description
+        """
         deck_a = Deck()
         deck_a.create()
         self.assertIsNotNone(deck_a.deal())
