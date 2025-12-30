@@ -12,7 +12,6 @@ class TestDeck(unittest.TestCase):
     def test_create(self) -> None:
         """
         Test to verify the test_create method
-        
         :param self: Description
         """
         deck_a = Deck()
