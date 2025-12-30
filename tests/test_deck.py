@@ -21,7 +21,6 @@ class TestDeck(unittest.TestCase):
     def test_deal(self) -> None:
         """
         Test to verify the test_deal method
-        
         :param self: Description
         """
         deck_a = Deck()
