@@ -28,6 +28,11 @@ class TestDeck(unittest.TestCase):
         self.assertIsNotNone(deck_a.deal())
         
     def test_deal_many(self) -> None:
+        """
+        Docstring for test_deal_many
+        
+        :param self: Description
+        """
         result = []
         deck_a = Deck()
         deck_a.create()
