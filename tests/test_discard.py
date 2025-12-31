@@ -10,6 +10,11 @@ from card import card
 
 class TestDiscard(unittest.TestCase):
     def test_add(self) -> None:
+        """
+        Docstring for test_add
+        
+        :param self: Description
+        """
         card_a = card()
         card_a.set_card("Hearts", "A")
         discard_a = discard()
