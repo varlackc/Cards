@@ -30,7 +30,6 @@ class TestDeck(unittest.TestCase):
     def test_deal_many(self) -> None:
         """
         Test to verify the test_deal_many method
-        
         :param self: Description
         """
         result = []
