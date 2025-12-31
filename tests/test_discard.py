@@ -12,7 +12,6 @@ class TestDiscard(unittest.TestCase):
     def test_add(self) -> None:
         """
         Test for the test_add method
-        
         :param self: Description
         """
         card_a = card()
