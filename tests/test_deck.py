@@ -29,7 +29,7 @@ class TestDeck(unittest.TestCase):
         
     def test_deal_many(self) -> None:
         """
-        Docstring for test_deal_many
+        Test to verify the test_deal_many method
         
         :param self: Description
         """
