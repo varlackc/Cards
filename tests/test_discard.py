@@ -11,7 +11,7 @@ from card import card
 class TestDiscard(unittest.TestCase):
     def test_add(self) -> None:
         """
-        Docstring for test_add
+        Test for the test_add method
         
         :param self: Description
         """
