@@ -10,7 +10,7 @@ from card import Card, Deck, Hand
 class TestHand(unittest.TestCase):
     def test_hand_add_card(self) -> None:
         """
-        Docstring for test_hand_add_card
+        Test to verify the hand_add_card method
         
         :param self: Description
         """
