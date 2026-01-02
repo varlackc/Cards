@@ -20,6 +20,11 @@ class TestHand(unittest.TestCase):
         self.assertEqual(len(hand_a.cards), 1)
         
     def test_initial(self) -> None:
+        """
+        Docstring for test_initial
+        
+        :param self: Description
+        """
         deck_a = Deck()
         deck_a.create()
         cards = []
