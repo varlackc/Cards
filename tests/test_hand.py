@@ -21,7 +21,7 @@ class TestHand(unittest.TestCase):
         
     def test_initial(self) -> None:
         """
-        Docstring for test_initial
+        Test to verify the initial method
         
         :param self: Description
         """
