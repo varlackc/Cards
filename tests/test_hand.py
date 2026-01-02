@@ -9,6 +9,11 @@ from card import Card, Deck, Hand
 
 class TestHand(unittest.TestCase):
     def test_hand_add_card(self) -> None:
+        """
+        Docstring for test_hand_add_card
+        
+        :param self: Description
+        """
         card_a = Card()
         hand_a = Hand()
         card_a.set_card("Hearts", "A")
