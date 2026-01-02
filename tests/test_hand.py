@@ -22,7 +22,6 @@ class TestHand(unittest.TestCase):
     def test_initial(self) -> None:
         """
         Test to verify the initial method
-        
         :param self: Description
         """
         deck_a = Deck()
