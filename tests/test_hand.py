@@ -11,7 +11,6 @@ class TestHand(unittest.TestCase):
     def test_hand_add_card(self) -> None:
         """
         Test to verify the hand_add_card method
-        
         :param self: Description
         """
         card_a = Card()
